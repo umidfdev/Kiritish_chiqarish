@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 // Umidov Alimaron
 class Main {
     // 2 ta son berilgan ular yig'indisi,ko'paytmasi va moduli.
@@ -6,7 +7,7 @@ class Main {
 
         Scanner in = new Scanner(System.in); // Scanner obyekti
 
-        float a,b ;
+        float a, b;
 
         System.out.print("1-son:");
         a = in.nextFloat();
@@ -21,12 +22,10 @@ class Main {
             return;
         }
 
-        System.out.println("Sum: "+(a+b));  // Their sum
-        System.out.println("Product: "+ (a*b));  // Their product
-        System.out.println("1-chi moduli: "+ Math.abs(a));  // 1th's module
-        System.out.println("2-moduli: "+Math.abs(b));  // 2th's module
-
-
+        System.out.println("Sum: " + (a + b));  // Their sum
+        System.out.println("Product: " + (a * b));  // Their product
+        System.out.println("1-chi moduli: " + Math.abs(a));  // 1th's module
+        System.out.println("2-moduli: " + Math.abs(b));  // 2th's module
 
 
     }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// Umidov Alimardon.
+// Umidov Alimardon
 class Main {
     // Aylana radiusini topuvchi dastur.
     public static void main(String[] args) {

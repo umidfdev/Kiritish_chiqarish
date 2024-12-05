@@ -9,7 +9,7 @@ public class Main {
         A = in.nextFloat();
 
         System.out.println("Apow2: "+(float)(Math.pow(A,2)));
-        System.out.println("Apow4: "+(float)(Math.pow(A,8)));
+        System.out.println("Apow4: "+(float)(Math.pow(A,4)));
         System.out.println("Apow8: "+(float)(Math.pow(A,8)));
 
 
